@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SyedJunaidAliRzV.Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="py-3 mb-6 border-bottom navbar-light bg-light">
+        <div class="container d-flex flex-wrap justify-content-center">
+            <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                <span class="fs-4">𝓢𝔂𝓮𝓭 𝓙𝓾𝓷𝓪𝓲𝓭 𝓐𝓵𝓲 𝓡𝓲𝔃𝓿𝓲</span>
+            </a>
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            </form>
+        </div>
+    </header>
+    <nav class="py-4 bg-body-tertiary border-bottom navbar-dark bg-dark">
+        <div class="container d-flex flex-wrap">
+            <ul class="nav me-auto">
+                <li class="nav-item active"><a href="#" class="nav-link link-body-emphasis px-2 active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link link-body-emphasis px-2">About</a></li>
+                <li class="nav-item"><a href=https://www.instagram.com/sjunaidalirizv/ "#" class="nav-link link-body-emphasis px-2">My Insta</a></li>
+                <li class="nav-item"><a href=https://www.youtube.com/channel/UCReFGj0lBJu2YdzooPM9e4Q "#" class="nav-link link-body-emphasis px-2">My Youtube</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link link-body-emphasis px-2 active" aria-current="page">Contact Me</a></li>
+
+            </ul>
+            <div class="mx-1">
+                <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#LoginModal"> Login </button>
+                <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#SignupModal">    SignUp</button>
+            </div>
+        </div>
+
+
+
+        <!-- Login Modal -->
+        <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="LoginModalLabel">Log In</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Log In</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Button trigger modal -->
+
+
+        <!--SigUp Modal -->
+        <div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="SignupModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="LoginModalLabel">Create Account</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Create Account</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row featurette d-flex justify-content-centre allign-items-centre">
+            <div class="container my-4">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://source.unsplash.com/1400x600/?Html,css " class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>𝐒𝐲𝐞𝐝 𝐉𝐮𝐧𝐚𝐢𝐝 𝐀𝐥𝐢 𝐑𝐢𝐳𝐯𝐢</h1>
+                                <p>Web Developer,Content Writer,Video Editor</p>
+                                <button type="button" class="btn btn-danger btn-lg">Youtube</button>
+                                <button type="button" class="btn btn-primary btn-lg">Discord</button>
+                                <button type="button" class="btn btn-success btn-lg">Fiver</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://source.unsplash.com/1400x600/?CryptoCurrency " class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>𝐒𝐲𝐞𝐝 𝐉𝐮𝐧𝐚𝐢𝐝 𝐀𝐥𝐢 𝐑𝐢𝐳𝐯𝐢</h1>
+                                <p>Web Developer,Content Writer,Video Editor.</p>
+                                <button type="button" class="btn btn-danger btn-lg">Youtube</button>
+                                <button type="button" class="btn btn-primary btn-lg">Discord</button>
+                                <button type="button" class="btn btn-success btn-lg">Fiver</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://source.unsplash.com/1400x600/?Coding,Programming" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>𝐒𝐲𝐞𝐝 𝐉𝐮𝐧𝐚𝐢𝐝 𝐀𝐥𝐢 𝐑𝐢𝐳𝐯𝐢</h1>
+                                <p>Web Developer,Content Writer,Video Editor</p>
+                                <button type="button" class="btn btn-danger btn-lg">Youtube</button>
+                                <button type="button" class="btn btn-primary btn-lg">Discord</button>
+                                <button type="button" class="btn btn-success btn-lg">Fiver</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+                </div>
+            </div>
+        </div>
+        <div class="card text-center">
+            <div class="card-header">
+                Featured
+            </div>
+            <div class="card-body ">
+                <h2>𝐄𝐚𝐫𝐧 𝐍𝐨𝐰 ! <span class="badge bg-info">New</span></h2>
+                <p class="card-text">* If You go For Crypto.Just Create and Account on Bitget Through my Refferal Link Below.Then Complete Verification and Earn.Buy Bitcoin and just put it in your wallet LONG TERM INVESTMENT!!(As BTC Value is Rising Day By Day)</p>
+                <p class="card-text">* If you go for HoneyGain.Just Login using my Refferal Link Below,Then download and let it Run on Background(It is an Network Providing Service Which you give them and they give you Dollars) or you Can Take help from Youtube!</p>
+                <p class="card-text"></p>
+                <a href=https://www.bitget.com/referral/register?from=referral&clacCode=5NTNKP5V "#" class="btn btn-outline-success">Earn Through Crypto</a>
+                <a href=https://r.honeygain.me/ABD6746A9C "#" class="btn btn-outline-warning">Earn Through HoneyGain</a>
+            </div>
+            <div class="card-footer text-body-secondary">
+                2 days ago
+            </div>
+        </div>
+        <div class="row featurette d-flex justify-content-centre allign-items-centre">
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">How to Earn through Crypto/Bitget.</h3>
+                            <p class="card-text">Get Help Here</p>
+                            <a href="#" class="btn btn-success btn-lg">Here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">How to Earn through HoneyGain.</h3>
+                            <p class="card-text">Get Help Here</p>
+                            <a href="#" class="btn btn-warning btn-lg">Here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-3">
+            <p>© 2023–𝙋𝙍𝙀𝙎𝙀𝙉𝙏 ꜱʏᴇᴅ ᴊᴜɴᴀɪᴅ ᴀʟɪ ʀɪᴢᴠɪ, ᴘᴏʀᴛꜰᴏʟɪᴏ. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz " crossorigin="anonymous "></script>
+</body>
+
+</html>

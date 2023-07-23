@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SyedJunaidAliRzV.Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="py-3 mb-6 border-bottom navbar-light bg-light">
+        <div class="container d-flex flex-wrap justify-content-center">
+            <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                <span class="fs-4">𝓢𝔂𝓮𝓭 𝓙𝓾𝓷𝓪𝓲𝓭 𝓐𝓵𝓲 𝓡𝓲𝔃𝓿𝓲</span>
+            </a>
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            </form>
+        </div>
+    </header>
+    <nav class="py-4 bg-body-tertiary border-bottom navbar-dark bg-dark">
+        <div class="container d-flex flex-wrap">
+            <ul class="nav me-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link link-body-emphasis px-2 active" aria-current="page">Home</a></li>
+                <li class="nav-item active"> <a href="about.html" class="nav-link link-body-emphasis px-2">About</a></li>
+                <li class="nav-item"><a href=https://www.instagram.com/sjunaidalirizv/ "#" class="nav-link link-body-emphasis px-2">My Insta</a></li>
+                <li class="nav-item"><a href=https://www.youtube.com/channel/UCReFGj0lBJu2YdzooPM9e4Q "#" class="nav-link link-body-emphasis px-2">My Youtube</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link link-body-emphasis px-2 active" aria-current="page">Contact Me</a></li>
+
+            </ul>
+            <div class="mx-1">
+                <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#LoginModal"> Login </button>
+                <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#SignupModal">    SignUp</button>
+            </div>
+        </div>
+        <!-- Login Modal -->
+        <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="LoginModalLabel">Log In</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Log In</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Button trigger modal -->
+
+
+        <!--SigUp Modal -->
+        <div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="SignupModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="LoginModalLabel">Create Account</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Create Account</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-4">
+            <div class="card mb-3">
+                <img src="https://source.unsplash.com/1200x500/?Coding,Html,Css,C++" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title">𝙎𝙮𝙚𝙙 𝙅𝙪𝙣𝙖𝙞𝙙 𝘼𝙡𝙞 𝙍𝙞𝙯𝙫𝙞 , </h2>
+                    <p class="card-text"> 𝐚 𝐭𝐫𝐮𝐞 𝐰𝐢𝐳𝐚𝐫𝐝 𝐢𝐧 𝐭𝐡𝐞 𝐫𝐞𝐚𝐥𝐦𝐬 𝐨𝐟 𝐩𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐢𝐧𝐠, 𝐯𝐢𝐝𝐞𝐨 𝐞𝐝𝐢𝐭𝐢𝐧𝐠, 𝐚𝐧𝐝 𝐰𝐞𝐛 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭. 𝐖𝐢𝐭𝐡 𝐚𝐧 𝐮𝐧𝐲𝐢𝐞𝐥𝐝𝐢𝐧𝐠 𝐩𝐚𝐬𝐬𝐢𝐨𝐧 𝐟𝐨𝐫 𝐭𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐚𝐧𝐝 𝐚
+                        𝐫𝐞𝐥𝐞𝐧𝐭𝐥𝐞𝐬𝐬 𝐩𝐮𝐫𝐬𝐮𝐢𝐭 𝐨𝐟 𝐩𝐞𝐫𝐟𝐞𝐜𝐭𝐢𝐨𝐧, 𝐭𝐡𝐞𝐲 𝐡𝐚𝐯𝐞 𝐞𝐬𝐭𝐚𝐛𝐥𝐢𝐬𝐡𝐞𝐝 𝐭𝐡𝐞𝐦𝐬𝐞𝐥𝐯𝐞𝐬 𝐚𝐬 𝐚 𝐟𝐨𝐫𝐜𝐞 𝐭𝐨 𝐛𝐞 𝐫𝐞𝐜𝐤𝐨𝐧𝐞𝐝 𝐰𝐢𝐭𝐡 𝐢𝐧 𝐭𝐡𝐞 𝐝𝐢𝐠𝐢𝐭𝐚𝐥 𝐰𝐨𝐫𝐥𝐝. 𝐀𝐬 𝐚
+                        𝐩𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐞𝐫, 𝐭𝐡𝐞𝐲 𝐩𝐨𝐬𝐬𝐞𝐬𝐬 𝐚 𝐩𝐫𝐨𝐟𝐨𝐮𝐧𝐝 𝐮𝐧𝐝𝐞𝐫𝐬𝐭𝐚𝐧𝐝𝐢𝐧𝐠 𝐨𝐟 𝐦𝐮𝐥𝐭𝐢𝐩𝐥𝐞 𝐩𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐢𝐧𝐠 𝐥𝐚𝐧𝐠𝐮𝐚𝐠𝐞𝐬, 𝐦𝐚𝐤𝐢𝐧𝐠 𝐭𝐡𝐞𝐦 𝐚𝐝𝐞𝐩𝐭 𝐚𝐭 𝐬𝐨𝐥𝐯𝐢𝐧𝐠 𝐜𝐨𝐦𝐩𝐥𝐞𝐱 𝐩𝐫𝐨𝐛𝐥𝐞𝐦𝐬
+                        𝐰𝐢𝐭𝐡 𝐞𝐥𝐞𝐠𝐚𝐧𝐭 𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐬. 𝐓𝐡𝐞𝐢𝐫 𝐜𝐨𝐝𝐢𝐧𝐠 𝐩𝐫𝐨𝐰𝐞𝐬𝐬 𝐞𝐱𝐭𝐞𝐧𝐝𝐬 𝐟𝐫𝐨𝐦 𝐭𝐫𝐚𝐝𝐢𝐭𝐢𝐨𝐧𝐚𝐥 𝐥𝐚𝐧𝐠𝐮𝐚𝐠𝐞𝐬 𝐥𝐢𝐤𝐞 𝐏𝐲𝐭𝐡𝐨𝐧, 𝐉𝐚𝐯𝐚, 𝐚𝐧𝐝 𝐂++ 𝐭𝐨 𝐭𝐡𝐞 𝐥𝐚𝐭𝐞𝐬𝐭 𝐭𝐫𝐞𝐧𝐝𝐬
+                        𝐢𝐧 𝐰𝐞𝐛 𝐚𝐧𝐝 𝐦𝐨𝐛𝐢𝐥𝐞 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐬𝐮𝐜𝐡 𝐚𝐬 𝐉𝐚𝐯𝐚𝐒𝐜𝐫𝐢𝐩𝐭, 𝐑𝐞𝐚𝐜𝐭, 𝐚𝐧𝐝 𝐒𝐰𝐢𝐟𝐭. 𝐓𝐡𝐞𝐲 𝐡𝐚𝐯𝐞 𝐚𝐧 𝐢𝐧𝐧𝐚𝐭𝐞 𝐚𝐛𝐢𝐥𝐢𝐭𝐲 𝐭𝐨 𝐭𝐫𝐚𝐧𝐬𝐟𝐨𝐫𝐦 𝐚𝐛𝐬𝐭𝐫𝐚𝐜𝐭 𝐢𝐝𝐞𝐚𝐬 𝐢𝐧𝐭𝐨
+                        𝐭𝐚𝐧𝐠𝐢𝐛𝐥𝐞, 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧𝐚𝐥 𝐚𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬, 𝐚𝐧𝐝 𝐭𝐡𝐞𝐢𝐫 𝐚𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧 𝐭𝐨 𝐝𝐞𝐭𝐚𝐢𝐥 𝐞𝐧𝐬𝐮𝐫𝐞𝐬 𝐭𝐡𝐚𝐭 𝐞𝐯𝐞𝐫𝐲 𝐥𝐢𝐧𝐞 𝐨𝐟 𝐜𝐨𝐝𝐞 𝐢𝐬 𝐨𝐩𝐭𝐢𝐦𝐢𝐳𝐞𝐝 𝐟𝐨𝐫 𝐞𝐟𝐟𝐢𝐜𝐢𝐞𝐧𝐜𝐲
+                        𝐚𝐧𝐝 𝐦𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐚𝐛𝐢𝐥𝐢𝐭𝐲. 𝐈𝐧 𝐭𝐡𝐞 𝐫𝐞𝐚𝐥𝐦 𝐨𝐟 𝐯𝐢𝐝𝐞𝐨 𝐞𝐝𝐢𝐭𝐢𝐧𝐠, 𝐭𝐡𝐞𝐲 𝐡𝐚𝐯𝐞 𝐚 𝐤𝐧𝐚𝐜𝐤 𝐟𝐨𝐫 𝐭𝐮𝐫𝐧𝐢𝐧𝐠 𝐫𝐚𝐰 𝐟𝐨𝐨𝐭𝐚𝐠𝐞 𝐢𝐧𝐭𝐨 𝐜𝐚𝐩𝐭𝐢𝐯𝐚𝐭𝐢𝐧𝐠 𝐯𝐢𝐬𝐮𝐚𝐥 𝐦𝐚𝐬𝐭𝐞𝐫𝐩𝐢𝐞𝐜𝐞𝐬.
+                        𝐀𝐫𝐦𝐞𝐝 𝐰𝐢𝐭𝐡 𝐚𝐧 𝐚𝐫𝐭𝐢𝐬𝐭𝐢𝐜 𝐞𝐲𝐞 𝐚𝐧𝐝 𝐚 𝐝𝐞𝐞𝐩 𝐮𝐧𝐝𝐞𝐫𝐬𝐭𝐚𝐧𝐝𝐢𝐧𝐠 𝐨𝐟 𝐯𝐢𝐝𝐞𝐨 𝐞𝐝𝐢𝐭𝐢𝐧𝐠 𝐬𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐥𝐢𝐤𝐞 𝐀𝐝𝐨𝐛𝐞 𝐏𝐫𝐞𝐦𝐢𝐞𝐫𝐞 𝐏𝐫𝐨, 𝐅𝐢𝐧𝐚𝐥 𝐂𝐮𝐭 𝐏𝐫𝐨, 𝐚𝐧𝐝 𝐀𝐟𝐭𝐞𝐫
+                        𝐄𝐟𝐟𝐞𝐜𝐭𝐬, 𝐭𝐡𝐞𝐲 𝐜𝐚𝐧 𝐛𝐫𝐞𝐚𝐭𝐡𝐞 𝐥𝐢𝐟𝐞 𝐢𝐧𝐭𝐨 𝐚𝐧𝐲 𝐩𝐫𝐨𝐣𝐞𝐜𝐭. 𝐅𝐫𝐨𝐦 𝐜𝐫𝐞𝐚𝐭𝐢𝐧𝐠 𝐬𝐭𝐮𝐧𝐧𝐢𝐧𝐠 𝐜𝐢𝐧𝐞𝐦𝐚𝐭𝐢𝐜 𝐬𝐞𝐪𝐮𝐞𝐧𝐜𝐞𝐬 𝐭𝐨 𝐜𝐫𝐚𝐟𝐭𝐢𝐧𝐠 𝐞𝐧𝐠𝐚𝐠𝐢𝐧𝐠 𝐜𝐨𝐧𝐭𝐞𝐧𝐭 𝐟𝐨𝐫
+                        𝐬𝐨𝐜𝐢𝐚𝐥 𝐦𝐞𝐝𝐢𝐚 𝐩𝐥𝐚𝐭𝐟𝐨𝐫𝐦𝐬, 𝐭𝐡𝐞𝐢𝐫 𝐯𝐢𝐝𝐞𝐨 𝐞𝐝𝐢𝐭𝐢𝐧𝐠 𝐬𝐤𝐢𝐥𝐥𝐬 𝐚𝐫𝐞 𝐛𝐨𝐮𝐧𝐝 𝐭𝐨 𝐥𝐞𝐚𝐯𝐞 𝐚 𝐥𝐚𝐬𝐭𝐢𝐧𝐠 𝐢𝐦𝐩𝐫𝐞𝐬𝐬𝐢𝐨𝐧 𝐨𝐧 𝐚𝐧𝐲 𝐚𝐮𝐝𝐢𝐞𝐧𝐜𝐞. 𝐖𝐡𝐞𝐧 𝐢𝐭 𝐜𝐨𝐦𝐞𝐬 𝐭𝐨
+                        𝐰𝐞𝐛 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭, 𝐭𝐡𝐞𝐲 𝐡𝐚𝐯𝐞 𝐦𝐚𝐬𝐭𝐞𝐫𝐞𝐝 𝐭𝐡𝐞 𝐚𝐫𝐭 𝐨𝐟 𝐜𝐫𝐚𝐟𝐭𝐢𝐧𝐠 𝐢𝐦𝐦𝐞𝐫𝐬𝐢𝐯𝐞 𝐚𝐧𝐝 𝐮𝐬𝐞𝐫-𝐟𝐫𝐢𝐞𝐧𝐝𝐥𝐲 𝐝𝐢𝐠𝐢𝐭𝐚𝐥 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞𝐬. 𝐅𝐫𝐨𝐦 𝐟𝐫𝐨𝐧𝐭-𝐞𝐧𝐝 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭
+                        𝐮𝐬𝐢𝐧𝐠 𝐇𝐓𝐌𝐋, 𝐂𝐒𝐒, 𝐚𝐧𝐝 𝐉𝐚𝐯𝐚𝐒𝐜𝐫𝐢𝐩𝐭 𝐭𝐨 𝐛𝐚𝐜𝐤-𝐞𝐧𝐝 𝐢𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧 𝐰𝐢𝐭𝐡 𝐟𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤𝐬 𝐥𝐢𝐤𝐞 𝐍𝐨𝐝𝐞.𝐣𝐬 𝐚𝐧𝐝 𝐃𝐣𝐚𝐧𝐠𝐨, 𝐭𝐡𝐞𝐲 𝐜𝐚𝐧 𝐛𝐫𝐢𝐧𝐠 𝐚𝐧𝐲 𝐰𝐞𝐛 𝐩𝐫𝐨𝐣𝐞𝐜𝐭
+                        𝐭𝐨 𝐟𝐫𝐮𝐢𝐭𝐢𝐨𝐧. 𝐓𝐡𝐞𝐢𝐫 𝐰𝐞𝐛𝐬𝐢𝐭𝐞𝐬 𝐚𝐫𝐞 𝐧𝐨𝐭 𝐣𝐮𝐬𝐭 𝐚𝐞𝐬𝐭𝐡𝐞𝐭𝐢𝐜𝐚𝐥𝐥𝐲 𝐩𝐥𝐞𝐚𝐬𝐢𝐧𝐠; 𝐭𝐡𝐞𝐲 𝐚𝐥𝐬𝐨 𝐞𝐱𝐜𝐞𝐥 𝐢𝐧 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧𝐚𝐥𝐢𝐭𝐲, 𝐞𝐧𝐬𝐮𝐫𝐢𝐧𝐠 𝐚 𝐬𝐞𝐚𝐦𝐥𝐞𝐬𝐬 𝐮𝐬𝐞𝐫
+                        𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 𝐚𝐧𝐝 𝐨𝐩𝐭𝐢𝐦𝐚𝐥 𝐩𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞. 𝐈𝐧 𝐚𝐝𝐝𝐢𝐭𝐢𝐨𝐧 𝐭𝐨 𝐭𝐡𝐞𝐢𝐫 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐞𝐱𝐩𝐞𝐫𝐭𝐢𝐬𝐞, 𝐭𝐡𝐞𝐲 𝐩𝐨𝐬𝐬𝐞𝐬𝐬 𝐞𝐱𝐜𝐞𝐥𝐥𝐞𝐧𝐭 𝐜𝐨𝐦𝐦𝐮𝐧𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐜𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐢𝐨𝐧
+                        𝐬𝐤𝐢𝐥𝐥𝐬, 𝐦𝐚𝐤𝐢𝐧𝐠 𝐭𝐡𝐞𝐦 𝐚𝐧 𝐚𝐬𝐬𝐞𝐭 𝐭𝐨 𝐚𝐧𝐲 𝐭𝐞𝐚𝐦. 𝐓𝐡𝐞𝐢𝐫 𝐚𝐛𝐢𝐥𝐢𝐭𝐲 𝐭𝐨 𝐭𝐫𝐚𝐧𝐬𝐥𝐚𝐭𝐞 𝐜𝐨𝐦𝐩𝐥𝐞𝐱 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐣𝐚𝐫𝐠𝐨𝐧 𝐢𝐧𝐭𝐨 𝐞𝐚𝐬𝐢𝐥𝐲 𝐮𝐧𝐝𝐞𝐫𝐬𝐭𝐚𝐧𝐝𝐚𝐛𝐥𝐞 𝐭𝐞𝐫𝐦𝐬
+                        𝐚𝐥𝐥𝐨𝐰𝐬 𝐭𝐡𝐞𝐦 𝐭𝐨 𝐰𝐨𝐫𝐤 𝐬𝐞𝐚𝐦𝐥𝐞𝐬𝐬𝐥𝐲 𝐰𝐢𝐭𝐡 𝐜𝐥𝐢𝐞𝐧𝐭𝐬 𝐚𝐧𝐝 𝐬𝐭𝐚𝐤𝐞𝐡𝐨𝐥𝐝𝐞𝐫𝐬, 𝐞𝐧𝐬𝐮𝐫𝐢𝐧𝐠 𝐭𝐡𝐚𝐭 𝐭𝐡𝐞 𝐯𝐢𝐬𝐢𝐨𝐧 𝐨𝐟 𝐚𝐧𝐲 𝐩𝐫𝐨𝐣𝐞𝐜𝐭 𝐢𝐬 𝐟𝐮𝐥𝐥𝐲 𝐫𝐞𝐚𝐥𝐢𝐳𝐞𝐝. 𝐃𝐫𝐢𝐯𝐞𝐧
+                        𝐛𝐲 𝐚𝐧 𝐢𝐧𝐬𝐚𝐭𝐢𝐚𝐛𝐥𝐞 𝐜𝐮𝐫𝐢𝐨𝐬𝐢𝐭𝐲, 𝐭𝐡𝐞𝐲 𝐬𝐭𝐚𝐲 𝐮𝐩-𝐭𝐨-𝐝𝐚𝐭𝐞 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞 𝐥𝐚𝐭𝐞𝐬𝐭 𝐚𝐝𝐯𝐚𝐧𝐜𝐞𝐦𝐞𝐧𝐭𝐬 𝐢𝐧 𝐭𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐚𝐧𝐝 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐨𝐮𝐬𝐥𝐲 𝐬𝐞𝐞𝐤 𝐭𝐨 𝐞𝐱𝐩𝐚𝐧𝐝
+                        𝐭𝐡𝐞𝐢𝐫 𝐤𝐧𝐨𝐰𝐥𝐞𝐝𝐠𝐞 𝐚𝐧𝐝 𝐬𝐤𝐢𝐥𝐥𝐬𝐞𝐭. 𝐓𝐡𝐢𝐬 𝐭𝐡𝐢𝐫𝐬𝐭 𝐟𝐨𝐫 𝐥𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐞𝐦𝐩𝐨𝐰𝐞𝐫𝐬 𝐭𝐡𝐞𝐦 𝐭𝐨 𝐬𝐭𝐚𝐲 𝐚𝐭 𝐭𝐡𝐞 𝐜𝐮𝐭𝐭𝐢𝐧𝐠 𝐞𝐝𝐠𝐞 𝐨𝐟 𝐭𝐡𝐞𝐢𝐫 𝐟𝐢𝐞𝐥𝐝𝐬, 𝐚𝐥𝐰𝐚𝐲𝐬 𝐫𝐞𝐚𝐝𝐲
+                        𝐭𝐨 𝐭𝐚𝐤𝐞 𝐨𝐧 𝐧𝐞𝐰 𝐜𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞𝐬 𝐚𝐧𝐝 𝐝𝐞𝐥𝐢𝐯𝐞𝐫 𝐞𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧𝐚𝐥 𝐫𝐞𝐬𝐮𝐥𝐭𝐬. 𝐖𝐡𝐞𝐭𝐡𝐞𝐫 𝐢𝐭'𝐬 𝐩𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐢𝐧𝐠, 𝐯𝐢𝐝𝐞𝐨 𝐞𝐝𝐢𝐭𝐢𝐧𝐠, 𝐨𝐫 𝐰𝐞𝐛 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭, 𝐭𝐡𝐢𝐬
+                        𝐦𝐮𝐥𝐭𝐢-𝐭𝐚𝐥𝐞𝐧𝐭𝐞𝐝 𝐢𝐧𝐝𝐢𝐯𝐢𝐝𝐮𝐚𝐥 𝐢𝐬 𝐚 𝐟𝐨𝐫𝐜𝐞 𝐭𝐨 𝐛𝐞 𝐫𝐞𝐜𝐤𝐨𝐧𝐞𝐝 𝐰𝐢𝐭𝐡. 𝐓𝐡𝐞𝐢𝐫 𝐩𝐚𝐬𝐬𝐢𝐨𝐧 𝐟𝐨𝐫 𝐢𝐧𝐧𝐨𝐯𝐚𝐭𝐢𝐨𝐧, 𝐮𝐧𝐰𝐚𝐯𝐞𝐫𝐢𝐧𝐠 𝐝𝐞𝐝𝐢𝐜𝐚𝐭𝐢𝐨𝐧, 𝐚𝐧𝐝 𝐦𝐚𝐬𝐭𝐞𝐫𝐲 𝐨𝐟
+                        𝐭𝐡𝐞𝐢𝐫 𝐜𝐫𝐚𝐟𝐭 𝐦𝐚𝐤𝐞 𝐭𝐡𝐞𝐦 𝐚𝐧 𝐢𝐧𝐯𝐚𝐥𝐮𝐚𝐛𝐥𝐞 𝐚𝐬𝐬𝐞𝐭 𝐭𝐨 𝐚𝐧𝐲 𝐩𝐫𝐨𝐣𝐞𝐜𝐭 𝐨𝐫 𝐨𝐫𝐠𝐚𝐧𝐢𝐳𝐚𝐭𝐢𝐨𝐧.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="container my-4">
+                <img src="https://source.unsplash.com/1200x500/?CryptoCurrency " class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title"> </h2>
+                    <p class="card-text">𝐀𝐬 𝐚 𝐂𝐫𝐲𝐩𝐭𝐨 𝐈𝐧𝐯𝐞𝐬𝐭𝐨𝐫, 𝐦𝐲 𝐣𝐨𝐮𝐫𝐧𝐞𝐲 𝐢𝐧 𝐭𝐡𝐞 𝐰𝐨𝐫𝐥𝐝 𝐨𝐟 𝐜𝐫𝐲𝐩𝐭𝐨𝐜𝐮𝐫𝐫𝐞𝐧𝐜𝐢𝐞𝐬 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐛𝐨𝐭𝐡 𝐞𝐱𝐜𝐢𝐭𝐢𝐧𝐠 𝐚𝐧𝐝 𝐜𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐢𝐧𝐠. 𝐈 𝐡𝐚𝐯𝐞 𝐢𝐦𝐦𝐞𝐫𝐬𝐞𝐝 𝐦𝐲𝐬𝐞𝐥𝐟
+                        𝐢𝐧 𝐞𝐱𝐭𝐞𝐧𝐬𝐢𝐯𝐞 𝐫𝐞𝐬𝐞𝐚𝐫𝐜𝐡, 𝐝𝐢𝐯𝐢𝐧𝐠 𝐢𝐧𝐭𝐨 𝐭𝐡𝐞 𝐢𝐧𝐭𝐫𝐢𝐜𝐚𝐭𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬 𝐨𝐟 𝐛𝐥𝐨𝐜𝐤𝐜𝐡𝐚𝐢𝐧 𝐭𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐚𝐧𝐝 𝐞𝐱𝐩𝐥𝐨𝐫𝐢𝐧𝐠 𝐯𝐚𝐫𝐢𝐨𝐮𝐬 𝐜𝐫𝐲𝐩𝐭𝐨𝐜𝐮𝐫𝐫𝐞𝐧𝐜𝐢𝐞𝐬 𝐚𝐧𝐝
+                        𝐩𝐫𝐨𝐣𝐞𝐜𝐭𝐬. 𝐈 𝐮𝐧𝐝𝐞𝐫𝐬𝐭𝐚𝐧𝐝 𝐭𝐡𝐞 𝐬𝐢𝐠𝐧𝐢𝐟𝐢𝐜𝐚𝐧𝐜𝐞 𝐨𝐟 𝐝𝐢𝐯𝐞𝐫𝐬𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐢𝐧 𝐦𝐲 𝐢𝐧𝐯𝐞𝐬𝐭𝐦𝐞𝐧𝐭 𝐬𝐭𝐫𝐚𝐭𝐞𝐠𝐲. 𝐈 𝐡𝐚𝐯𝐞 𝐬𝐩𝐫𝐞𝐚𝐝 𝐦𝐲 𝐢𝐧𝐯𝐞𝐬𝐭𝐦𝐞𝐧𝐭𝐬 𝐚𝐜𝐫𝐨𝐬𝐬 𝐝𝐢𝐟𝐟𝐞𝐫𝐞𝐧𝐭
+                        𝐜𝐫𝐲𝐩𝐭𝐨𝐜𝐮𝐫𝐫𝐞𝐧𝐜𝐢𝐞𝐬 𝐭𝐨 𝐫𝐞𝐝𝐮𝐜𝐞 𝐭𝐡𝐞 𝐢𝐦𝐩𝐚𝐜𝐭 𝐨𝐟 𝐦𝐚𝐫𝐤𝐞𝐭 𝐯𝐨𝐥𝐚𝐭𝐢𝐥𝐢𝐭𝐲 𝐨𝐧 𝐦𝐲 𝐨𝐯𝐞𝐫𝐚𝐥𝐥 𝐩𝐨𝐫𝐭𝐟𝐨𝐥𝐢𝐨. 𝐁𝐲 𝐝𝐢𝐯𝐞𝐫𝐬𝐢𝐟𝐲𝐢𝐧𝐠, 𝐈 𝐚𝐢𝐦 𝐭𝐨 𝐦𝐚𝐧𝐚𝐠𝐞 𝐫𝐢𝐬𝐤 𝐚𝐧𝐝
+                        𝐢𝐧𝐜𝐫𝐞𝐚𝐬𝐞 𝐭𝐡𝐞 𝐩𝐨𝐭𝐞𝐧𝐭𝐢𝐚𝐥 𝐟𝐨𝐫 𝐥𝐨𝐧𝐠-𝐭𝐞𝐫𝐦 𝐠𝐚𝐢𝐧𝐬. 𝐑𝐢𝐬𝐤 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐢𝐬 𝐚𝐥𝐰𝐚𝐲𝐬 𝐨𝐧 𝐦𝐲 𝐦𝐢𝐧𝐝 𝐚𝐬 𝐈 𝐧𝐚𝐯𝐢𝐠𝐚𝐭𝐞 𝐭𝐡𝐞 𝐜𝐫𝐲𝐩𝐭𝐨 𝐦𝐚𝐫𝐤𝐞𝐭. 𝐈 𝐜𝐚𝐫𝐞𝐟𝐮𝐥𝐥𝐲
+                        𝐚𝐬𝐬𝐞𝐬𝐬 𝐦𝐲 𝐫𝐢𝐬𝐤 𝐭𝐨𝐥𝐞𝐫𝐚𝐧𝐜𝐞 𝐚𝐧𝐝 𝐚𝐥𝐥𝐨𝐜𝐚𝐭𝐞 𝐨𝐧𝐥𝐲 𝐚 𝐩𝐨𝐫𝐭𝐢𝐨𝐧 𝐨𝐟 𝐦𝐲 𝐭𝐨𝐭𝐚𝐥 𝐢𝐧𝐯𝐞𝐬𝐭𝐦𝐞𝐧𝐭 𝐜𝐚𝐩𝐢𝐭𝐚𝐥 𝐭𝐨 𝐜𝐫𝐲𝐩𝐭𝐨𝐜𝐮𝐫𝐫𝐞𝐧𝐜𝐢𝐞𝐬. 𝐓𝐡𝐢𝐬 𝐚𝐩𝐩𝐫𝐨𝐚𝐜𝐡 𝐚𝐥𝐥𝐨𝐰𝐬
+                        𝐦𝐞 𝐭𝐨 𝐩𝐫𝐨𝐭𝐞𝐜𝐭 𝐦𝐲𝐬𝐞𝐥𝐟 𝐟𝐫𝐨𝐦 𝐬𝐢𝐠𝐧𝐢𝐟𝐢𝐜𝐚𝐧𝐭 𝐥𝐨𝐬𝐬𝐞𝐬 𝐰𝐡𝐢𝐥𝐞 𝐬𝐭𝐢𝐥𝐥 𝐩𝐚𝐫𝐭𝐢𝐜𝐢𝐩𝐚𝐭𝐢𝐧𝐠 𝐢𝐧 𝐭𝐡𝐞 𝐩𝐨𝐭𝐞𝐧𝐭𝐢𝐚𝐥 𝐮𝐩𝐬𝐢𝐝𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐦𝐚𝐫𝐤𝐞𝐭. 𝐌𝐲 𝐢𝐧𝐯𝐞𝐬𝐭𝐦𝐞𝐧𝐭
+                        𝐩𝐡𝐢𝐥𝐨𝐬𝐨𝐩𝐡𝐲 𝐜𝐞𝐧𝐭𝐞𝐫𝐬 𝐚𝐫𝐨𝐮𝐧𝐝 𝐚 𝐥𝐨𝐧𝐠-𝐭𝐞𝐫𝐦 𝐯𝐢𝐬𝐢𝐨𝐧. 𝐖𝐡𝐢𝐥𝐞 𝐬𝐡𝐨𝐫𝐭-𝐭𝐞𝐫𝐦 𝐩𝐫𝐢𝐜𝐞 𝐟𝐥𝐮𝐜𝐭𝐮𝐚𝐭𝐢𝐨𝐧𝐬 𝐜𝐚𝐧 𝐛𝐞 𝐭𝐞𝐦𝐩𝐭𝐢𝐧𝐠, 𝐈 𝐟𝐨𝐜𝐮𝐬 𝐨𝐧 𝐭𝐡𝐞 𝐮𝐧𝐝𝐞𝐫𝐥𝐲𝐢𝐧𝐠
+                        𝐭𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐚𝐧𝐝 𝐭𝐡𝐞 𝐫𝐞𝐚𝐥-𝐰𝐨𝐫𝐥𝐝 𝐩𝐫𝐨𝐛𝐥𝐞𝐦𝐬 𝐭𝐡𝐚𝐭 𝐜𝐫𝐲𝐩𝐭𝐨𝐜𝐮𝐫𝐫𝐞𝐧𝐜𝐢𝐞𝐬 𝐚𝐧𝐝 𝐛𝐥𝐨𝐜𝐤𝐜𝐡𝐚𝐢𝐧 𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐬 𝐚𝐢𝐦 𝐭𝐨 𝐬𝐨𝐥𝐯𝐞. 𝐈 𝐛𝐞𝐥𝐢𝐞𝐯𝐞 𝐢𝐧 𝐭𝐡𝐞 𝐭𝐫𝐚𝐧𝐬𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐯𝐞
+                        𝐩𝐨𝐰𝐞𝐫 𝐨𝐟 𝐛𝐥𝐨𝐜𝐤𝐜𝐡𝐚𝐢𝐧 𝐭𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐚𝐧𝐝 𝐢𝐭𝐬 𝐩𝐨𝐭𝐞𝐧𝐭𝐢𝐚𝐥 𝐭𝐨 𝐫𝐞𝐯𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐢𝐳𝐞 𝐢𝐧𝐝𝐮𝐬𝐭𝐫𝐢𝐞𝐬, 𝐰𝐡𝐢𝐜𝐡 𝐢𝐬 𝐰𝐡𝐲 𝐈 𝐫𝐞𝐦𝐚𝐢𝐧 𝐩𝐚𝐭𝐢𝐞𝐧𝐭 𝐚𝐧𝐝 𝐜𝐨𝐦𝐦𝐢𝐭𝐭𝐞𝐝 𝐭𝐨
+                        𝐦𝐲 𝐥𝐨𝐧𝐠-𝐭𝐞𝐫𝐦 𝐢𝐧𝐯𝐞𝐬𝐭𝐦𝐞𝐧𝐭 𝐠𝐨𝐚𝐥𝐬..𝐂𝐚𝐮𝐭𝐢𝐨𝐧 𝐰𝐢𝐭𝐡 𝐇𝐲𝐩𝐞: 𝐖𝐡𝐢𝐥𝐞 𝐲𝐨𝐮'𝐫𝐞 𝐞𝐧𝐭𝐡𝐮𝐬𝐢𝐚𝐬𝐭𝐢𝐜 𝐚𝐛𝐨𝐮𝐭 𝐭𝐡𝐞 𝐩𝐨𝐭𝐞𝐧𝐭𝐢𝐚𝐥 𝐨𝐟 𝐜𝐫𝐲𝐩𝐭𝐨𝐜𝐮𝐫𝐫𝐞𝐧𝐜𝐢𝐞𝐬, 𝐲𝐨𝐮 𝐞𝐱𝐞𝐫𝐜𝐢𝐬𝐞
+                        𝐜𝐚𝐮𝐭𝐢𝐨𝐧 𝐰𝐡𝐞𝐧 𝐢𝐭 𝐜𝐨𝐦𝐞𝐬 𝐭𝐨 𝐡𝐲𝐩𝐞 𝐚𝐧𝐝 𝐬𝐩𝐞𝐜𝐮𝐥𝐚𝐭𝐢𝐯𝐞 𝐩𝐫𝐨𝐣𝐞𝐜𝐭𝐬. 𝐘𝐨𝐮 𝐜𝐨𝐧𝐝𝐮𝐜𝐭 𝐭𝐡𝐨𝐫𝐨𝐮𝐠𝐡 𝐝𝐮𝐞 𝐝𝐢𝐥𝐢𝐠𝐞𝐧𝐜𝐞 𝐚𝐧𝐝 𝐚𝐯𝐨𝐢𝐝 𝐢𝐧𝐯𝐞𝐬𝐭𝐢𝐧𝐠 𝐢𝐧 𝐩𝐫𝐨𝐣𝐞𝐜𝐭𝐬 𝐭𝐡𝐚𝐭
+                        𝐥𝐚𝐜𝐤 𝐬𝐨𝐥𝐢𝐝 𝐟𝐮𝐧𝐝𝐚𝐦𝐞𝐧𝐭𝐚𝐥𝐬 𝐨𝐫 𝐜𝐥𝐞𝐚𝐫 𝐮𝐬𝐞 𝐜𝐚𝐬𝐞𝐬. 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐚𝐧𝐝 𝐆𝐫𝐨𝐰𝐭𝐡: 𝐀𝐬 𝐚 𝐂𝐫𝐲𝐩𝐭𝐨 𝐈𝐧𝐯𝐞𝐬𝐭𝐨𝐫, 𝐲𝐨𝐮 𝐧𝐞𝐯𝐞𝐫 𝐬𝐭𝐨𝐩 𝐥𝐞𝐚𝐫𝐧𝐢𝐧𝐠. 𝐘𝐨𝐮 𝐤𝐞𝐞𝐩 𝐞𝐝𝐮𝐜𝐚𝐭𝐢𝐧𝐠
+                        𝐲𝐨𝐮𝐫𝐬𝐞𝐥𝐟 𝐚𝐛𝐨𝐮𝐭 𝐛𝐥𝐨𝐜𝐤𝐜𝐡𝐚𝐢𝐧 𝐭𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲, 𝐦𝐚𝐫𝐤𝐞𝐭 𝐝𝐲𝐧𝐚𝐦𝐢𝐜𝐬, 𝐚𝐧𝐝 𝐢𝐧𝐯𝐞𝐬𝐭𝐦𝐞𝐧𝐭 𝐬𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐞𝐬. 𝐘𝐨𝐮 𝐫𝐞𝐜𝐨𝐠𝐧𝐢𝐳𝐞 𝐭𝐡𝐚𝐭 𝐭𝐡𝐞 𝐜𝐫𝐲𝐩𝐭𝐨 𝐬𝐩𝐚𝐜𝐞 𝐢𝐬 𝐜𝐨𝐧𝐬𝐭𝐚𝐧𝐭𝐥𝐲
+                        𝐞𝐯𝐨𝐥𝐯𝐢𝐧𝐠, 𝐚𝐧𝐝 𝐬𝐭𝐚𝐲𝐢𝐧𝐠 𝐢𝐧𝐟𝐨𝐫𝐦𝐞𝐝 𝐢𝐬 𝐜𝐫𝐮𝐜𝐢𝐚𝐥 𝐟𝐨𝐫 𝐦𝐚𝐤𝐢𝐧𝐠 𝐬𝐨𝐮𝐧𝐝 𝐢𝐧𝐯𝐞𝐬𝐭𝐦𝐞𝐧𝐭 𝐝𝐞𝐜𝐢𝐬𝐢𝐨𝐧𝐬. 𝐎𝐯𝐞𝐫𝐚𝐥𝐥, 𝐚𝐬 𝐚 𝐂𝐫𝐲𝐩𝐭𝐨 𝐈𝐧𝐯𝐞𝐬𝐭𝐨𝐫, 𝐲𝐨𝐮 𝐜𝐨𝐦𝐛𝐢𝐧𝐞 𝐚
+                        𝐩𝐚𝐬𝐬𝐢𝐨𝐧 𝐟𝐨𝐫 𝐜𝐮𝐭𝐭𝐢𝐧𝐠-𝐞𝐝𝐠𝐞 𝐭𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐰𝐢𝐭𝐡 𝐚 𝐝𝐢𝐬𝐜𝐢𝐩𝐥𝐢𝐧𝐞𝐝 𝐚𝐧𝐝 𝐫𝐞𝐬𝐞𝐚𝐫𝐜𝐡-𝐝𝐫𝐢𝐯𝐞𝐧 𝐚𝐩𝐩𝐫𝐨𝐚𝐜𝐡 𝐭𝐨 𝐢𝐧𝐯𝐞𝐬𝐭𝐦𝐞𝐧𝐭, 𝐬𝐞𝐞𝐤𝐢𝐧𝐠 𝐭𝐨 𝐧𝐚𝐯𝐢𝐠𝐚𝐭𝐞 𝐭𝐡𝐞
+                        𝐞𝐱𝐜𝐢𝐭𝐢𝐧𝐠 𝐚𝐧𝐝 𝐞𝐯𝐞𝐫-𝐜𝐡𝐚𝐧𝐠𝐢𝐧𝐠 𝐰𝐨𝐫𝐥𝐝 𝐨𝐟 𝐜𝐫𝐲𝐩𝐭𝐨𝐜𝐮𝐫𝐫𝐞𝐧𝐜𝐢𝐞𝐬 𝐰𝐡𝐢𝐥𝐞 𝐦𝐚𝐧𝐚𝐠𝐢𝐧𝐠 𝐫𝐢𝐬𝐤 𝐚𝐧𝐝 𝐩𝐮𝐫𝐬𝐮𝐢𝐧𝐠 𝐥𝐨𝐧𝐠-𝐭𝐞𝐫𝐦 𝐠𝐫𝐨𝐰𝐭𝐡.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row featurette d-flex justify-content-centre allign-items-centre">
+            <div class="card text-center">
+                <div class="card-header">
+                    Featured
+                </div>
+                <div class="card-body">
+                    <h2>𝐄𝐚𝐫𝐧 𝐍𝐨𝐰 !<span class="badge bg-info">New</span></h2>
+                    <p class="card-text">* If You go For Crypto.Just Create and Account on Bitget Through my Refferal Link Below.Then Complete Verification and Earn.Buy Bitcoin and just put it in your wallet LONG TERM INVESTMENT!!(As BTC Value is Rising Day By Day)</p>
+                    <p class="card-text">* If you go for HoneyGain.Just Login using my Refferal Link Below,Then download and let it Run on Background(It is an Network Providing Service Which you give them and they give you Dollars) or you Can Take help from Youtube!</p>
+                    <a href=https://www.bitget.com/referral/register?from=referral&clacCode=5NTNKP5V "#" class="btn btn-success btn-lg">Earn Through Crypto</a>
+                    <a href=https://r.honeygain.me/ABD6746A9C "#" class="btn btn-warning btn-lg">Earn Through HoneyGain</a>
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+        <div class="container my-3">
+            <p>© 2023–𝙋𝙍𝙀𝙎𝙀𝙉𝙏 ꜱʏᴇᴅ ᴊᴜɴᴀɪᴅ ᴀʟɪ ʀɪᴢᴠɪ, ᴘᴏʀᴛꜰᴏʟɪᴏ. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+</html>
